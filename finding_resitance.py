@@ -29,7 +29,7 @@ for row in range(0,36):
         grand_finale = [value, row_f, col_f]
         res1.append(grand_finale)
 for result in res1:
-    if 328<result[0]<332:
+    if 307<result[0]<313:
         resistor1 = res_value_1[result[1][0]], res_value_1[result[1][1]]
         resistor2 = res_value_1[result[2][0]], res_value_1[result[2][1]]
         print(result[0])
